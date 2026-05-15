@@ -10,7 +10,7 @@ class Complejo(
     fun mostrar(){
         println(this.toString())}
     override fun toString():String{
-        return "(${real},${imag})"
+        return"(${real},${imag})"
     }
     fun sumar(otro:Complejo):Complejo{
         return Complejo(
